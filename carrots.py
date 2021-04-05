@@ -1,4 +1,4 @@
-from vegetables import Vegetables
+from .vegetables import Vegetables
 
 class BagOfCarrots(Vegetables):
 

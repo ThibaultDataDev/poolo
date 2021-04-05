@@ -7,4 +7,3 @@ class Vegetables(ABC):
     @abstractmethod
     def howmanytogrow(self, seeds_number):
         pass
-    

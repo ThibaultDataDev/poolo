@@ -1,6 +1,6 @@
-from tomatoes import BagOfTomatoes
-from potatoes import BagOfPotatoes
-from carrots import BagOfCarrots
+from .tomatoes import BagOfTomatoes
+from .potatoes import BagOfPotatoes
+from .carrots import BagOfCarrots
 
 class Gardener():
     def getseedsnb(self):

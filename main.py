@@ -1,10 +1,10 @@
-from garden import Garden
-from potatoes import BagOfPotatoes
-from tomatoes import BagOfTomatoes
-from gardener import Gardener
+from .garden import Garden
+from .potatoes import BagOfPotatoes
+from .tomatoes import BagOfTomatoes
+from .gardener import Gardener
 Audrey = Gardener()
 Jardin = Garden()
-p = BagOfTomatoes() 
+p = BagOfTomatoes()
 q = BagOfPotatoes()
 p.howmanytogrow(23)
 q.howmanytogrow(2)

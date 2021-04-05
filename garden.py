@@ -1,5 +1,5 @@
-from potatoes import BagOfPotatoes
-from tomatoes import BagOfTomatoes
+from .potatoes import BagOfPotatoes
+from .tomatoes import BagOfTomatoes
 
 class Garden():
 
